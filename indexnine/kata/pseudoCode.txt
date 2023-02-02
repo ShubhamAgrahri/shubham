@@ -1,0 +1,18 @@
+ dollarAlignment:
+	 input :
+	 line 1
+	 line 2
+	 line 3
+	 line 4
+
+step 1 : split line1's $ , and putting into the arrays
+
+->check maximum length of array & take as a length of other array.
+->loop from 0 to length of max_array-1
+	->nested loop 0 to 3(for comparing colums of 4 different arrays)
+		comapre indxes length of string
+
+
+1) count max chracter in the entrire column and replace max
+between $---$ character equal '$' replace with '|'
+2) 

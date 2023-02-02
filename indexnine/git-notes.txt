@@ -1,0 +1,129 @@
+git -tuturl->https://www.youtube.com/watch?v=4lxvVj7wlZw&t=2s
+gitbranchingWebsite Helpful ->https://learngitbranching.js.org/
+you cannot create a branch until you make first commit 
+
+to unsatge a file 
+
+git reset HEAD file.extension 
+
+->the head defines current latest folder
+
+to track an empty file we need to create .gitkeep file in that folder 
+
+ 
+---
+to merge two branches 
+git merge childBranchName
+
+---
+to create branch 
+git checkout -b branchName
+
+--
+to delete branch 
+git checkout -d branchName 
+
+--- 
+what is merge conflict ?
+two different commit form different branches on same file ,
+
+
+--- 
+pushing the change 
+change->stage it -> commit ->push 
+
+
+
+---
+Git global setup
+git config --global user.name "shubham agrahari"
+git config --global user.email "shubham.agrahari@indexnine.com"
+
+---
+create a new repository 
+git clone git@git.indexnine.com:Shubham/git-practice.git
+cd git-practice
+git switch -c main
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin main
+
+
+---
+Push an existing folder
+
+cd existing_folder
+git init --initial-branch=main
+git remote add origin git@git.indexnine.com:Shubham/git-practice.git
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+
+
+---- 
+Push an existing Git repository
+
+cd existing_repo
+git remote rename origin old-origin
+git remote add origin git@git.indexnine.com:Shubham/git-practice.git
+git push -u origin --all
+git push -u origin --tags
+
+
+
+--- 
+difference between merging and rebase 
+
+in merging it will show commit of other branches as well but in 
+rebase it will not show the commit of other branches 
+
+
+--- 
+get the latest commited file 
+
+git pull origin branchname 
+
+
+--
+git pull rebase -> removes other history 
+
+
+--
+cloning 
+
+
+---
+branching -https://www.youtube.com/watch?v=rYwwz1b2Nss
+
+
+--- 
+to travel backwards 
+
+git checkout HEAD^
+
+to travel branch backward -> 
+
+git branch -f branchname toDestinationBranchName
+
+
+---
+Reversing Change in a Git 
+
+
+
+
+---
+picking change of a particular branch commit 
+
+git cherry-pick cimmitId 
+
+
+---- 
+reversing a change 
+git revert HEAD~ -> simply moves back to its previous commit 
+
+git reset HEAD  -> the difference between revert and reset is it 
+			moves remote branches to previous commit 
+
+

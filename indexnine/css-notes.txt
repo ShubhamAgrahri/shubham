@@ -1,0 +1,20 @@
+grid notes 
+
+grid column start 
+grid -column-end 
+grid-row-start
+grid-row-end 
+
+grid-row : grid-row-start/grid-row-end
+grid-column :grid-column-start /grid-column-end 
+
+grid -area : grid row-start /grid-column-start /grid-row-end /grid-column-end
+
+grid-template-rows ->  The grid-template-rows property specifies the number (and the heights) of the rows in a grid layout.
+
+The values are a space-separated list, where each value specifies the height of the respective row.
+
+
+grid-template-column : The grid-template-columns property specifies the number (and the widths) of columns in a grid layout.
+
+The values are a space separated list, where each value specifies the size of the respective column.

@@ -1,0 +1,13 @@
+git -fetch = bring frsh changes from remote to local,h
+		here we have stage and merge the changes to current 
+		directory using git merge ;
+
+git pull  = git fetch and git merge ,downloads the latest changes 
+		in the local and it also automatically merges changes 
+		in your working directory .
+		you don't have chances to review the changes before 
+		merging 
+		
+
+		merge conflicts can and do occur .
+		merge only into current working branch .

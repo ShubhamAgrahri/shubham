@@ -1,0 +1,16 @@
+ 
+1)rows=paragraph.split(\n)
+2)convert the singles line to array:-
+3)loop from 0 to count_of_rows:
+	3.1)split using ($) each element of rows into array
+	
+4)we are getting 2D array, after that we find max length out of all rows
+5)for iterating through each line without out of index, we are making an indicator for each line:Lengthofrows[]
+6)max(lengthOfRows[]) storing max length
+7)loop(0,maxlength)
+8)finding the max column length out of all the array 
+9)padding each word with space and ' | ' upto maxlenth of word in column without going out of index
+
+10 ) concatenate all the rows into single paragraph 
+
+	

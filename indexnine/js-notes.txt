@@ -1,0 +1,36 @@
+=== -> (strictly equality)test whether the left and rigth values are identical to one another
+!== -> (strictly-non-equality) test whetehr left and right values are not identical to one another
+<= -less than equal to 
+>= greater than equal to 
+
+
+//string concatenation 
+
+so if you add '' and add number before or after it will be 
+caoncatened as string 
+
+''+2+3 = 5 
+2+3+4+''= 9;
+
+
+//string extraction 
+
+str.slice(startPosition , endPos (end is not included))
+str.sunstring () - similiar to first 
+str.substr(startPosition ,length of word )
+
+
+//javascript logical operators 
+https://javascript.info/logical-operators
+
+//function 
+
+function declaration  it means normally to declare a function like 
+
+function sum(){};
+
+function expressiion it id creted inside an expression or inside another syntax construct 
+
+const val = function sum(){};
+
+
